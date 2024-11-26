@@ -22,7 +22,7 @@ jobs:
           node-version: '20.x'
 
       - name: npm install, build, and test
-      - working-directory: 'monster_hunt_front/app'
+        working-directory: 'monster_hunt_front/app'
 
         run: |
           npm install
